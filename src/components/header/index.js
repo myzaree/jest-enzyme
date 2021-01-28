@@ -4,10 +4,10 @@ import Logo from '../../assets/logo.svg';
 
 const Header = () => {
   return (
-    <header>
+    <header data-test="headerComponent">
       <div className="wrapper">
         <div className="logo">
-          <img src={Logo} alt="Logo" />
+          <img data-test="logoImg" src={Logo} alt="Logo" />
         </div>
       </div>
     </header>
