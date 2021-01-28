@@ -15,7 +15,7 @@ header {
     max-width: 980px;
 
     .logo {
-      display: block;
+      display: flex;
       width: 250px;
       position: absolute;
       left: 10px;
@@ -28,6 +28,7 @@ header {
         display: block;
         width: -100%;
         margin: 0;
+        margin-right: 10px;
       }
     }
   }

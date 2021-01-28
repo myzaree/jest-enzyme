@@ -8,6 +8,7 @@ const Header = () => {
       <div className="wrapper">
         <div className="logo">
           <img data-test="logoImg" src={Logo} alt="Logo" />
+          <h2>Logo</h2>
         </div>
       </div>
     </header>
